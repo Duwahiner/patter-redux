@@ -13,7 +13,7 @@ const Prices = ({ data, item }) => {
       flexDirection='column'
     >
       {
-          rurrentData[0]?.versions[0].productOfferingPrices.map((item, index) => {
+          rurrentData[0]?.versions[0].productOfferingPrices?.map((item, index) => {
             return (
               <PricesItems
                 key={index}

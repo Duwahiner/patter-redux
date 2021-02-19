@@ -3,7 +3,7 @@ import { Box, Flex } from 'rebass'
 import { Title } from '../Title'
 import { Container } from './style'
 
-const CharacteristicsItems = ({ name}) => {
+const CharacteristicsItems = ({ name }) => {
   const theme = useTheme()
 
   return (

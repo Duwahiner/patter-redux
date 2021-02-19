@@ -14,7 +14,7 @@ const Characteristics = ({ data, item }) => {
       flexDirection='column'
     >
       {
-        rurrentData[0]?.versions[0].characteristics.map((item, index) => {
+        rurrentData[0]?.versions[0].characteristics?.map((item, index) => {
           return (
             <CharacteristicsItems
               key={index}
