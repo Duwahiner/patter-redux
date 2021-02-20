@@ -19,7 +19,7 @@ const SelectInput = (props) => {
     <Container>
       <Box width={1}>
         <SelectOptions
-          placeholder='Search by country, Regions'
+          placeholder='Buscar producto'
           option={dataOption}
           handleChange={handleChange}
         />
